@@ -3,7 +3,7 @@
 
 
 
-#prerequisite 
+# prerequisite 
 Having installed and configured Foxy Proxy, this is covered in the video above but will not be in the text guide. 
 
 # Part One: Reconnaissance.
