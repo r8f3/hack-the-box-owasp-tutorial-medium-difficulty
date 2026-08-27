@@ -14,7 +14,7 @@ Once you have arrived at the login page. make sure the interceptor and Foxy Prox
 If Foxy Proxy has been configured properly. you will see 3 packets.
 
 ## step 2 The attack. 
-Now, of these 3 packets, we are looking for the one labeled "post" under the method category. Once you have navigated to this packet. Look through the packet for the "email and password field." Here we need to change the email to **"' or 1=1--"**. Now, at the top of the proxy tab, click the down arrow and select forward all. Now click the big orange button, and congratulations, you have logged into the admin account through SQL. 
+Now, of these 3 packets, we are looking for the one labeled "post" under the method category. Once you have navigated to this packet. Look through the packet for the "email and password field." Here we need to change the email to ** "' or 1=1--" **. Now, at the top of the proxy tab, click the down arrow and select forward all. Now click the big orange button, and congratulations, you have logged into the admin account through SQL. 
 Why this works is because the input '1=1--' closes an open text field; 1=1 creates a logical condition that is always true, and -- comments out the rest of the original query so the database ignores the password check.
 
 # Part 3 The Bender account
