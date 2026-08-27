@@ -1,3 +1,8 @@
+<iframe width="1308" height="736" src="https://www.youtube.com/embed/uZc52qu_oJw" title="owasp juice shop tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
 #prerequisite 
 Having installed and configured Foxy Proxy, this is covered in the video above but will not be in the text guide. 
 
